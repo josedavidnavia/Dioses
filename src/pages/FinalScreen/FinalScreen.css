@@ -1,0 +1,70 @@
+/* src/pages/FinalScreen/FinalScreen.css */
+
+.final-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.final-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.god-image {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.god-description {
+    font-size: 18px;
+    margin-bottom: 40px;
+    padding: 0 20px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.final-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.final-button:hover {
+    background-color: #0056b3;
+}
+
+.background-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;  /* Asegura que esté detrás de los otros elementos */
+}
+
+.god-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+

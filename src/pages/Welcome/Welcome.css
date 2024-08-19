@@ -1,0 +1,60 @@
+/* Welcome.css */
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffffff; /* Assuming white background */
+    text-align: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.welcome-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000000; /* Black color for the title */
+    margin-bottom: 20px;
+}
+
+.welcome-image {
+    width: 150px; /* Adjust this size to match your design */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.welcome-description {
+    font-size: 1rem;
+    color: #000000;
+    margin-bottom: 30px;
+    max-width: 600px;
+}
+
+.email-input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-input-container input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.email-input-container button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.email-input-container button:hover {
+    background-color: #333333;
+}
