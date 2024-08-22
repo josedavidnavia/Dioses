@@ -55,8 +55,14 @@ const FinalScreen = ({ selectedGodKey, onRestart }) => {
     return (
         <div className="final-screen">
             <h1 className="final-title">Aquel a quien de veras servir es ...</h1>
-            <img src={selectedGod.image} alt={selectedGod.name} className="god-image" />
-            <p className="god-description">{selectedGod.description}</p>
+            <div className="content-wrapper">
+                <div className="god-image-container">
+                    <img src={selectedGod.image} alt={selectedGod.name} className="god-image" />
+                </div>
+                <div className="text-container">
+                    <p className="god-description">{selectedGod.description}</p>
+                </div>
+            </div>
             <div className="buttons-container">
                 <button className="final-button" onClick={handleStartDevotion}>Iniciar devoción</button>
                 <button className="final-button" onClick={onRestart}>Volver a empezar</button>
